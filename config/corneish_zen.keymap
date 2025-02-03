@@ -144,6 +144,15 @@
         };
     };
 
+    macros {
+        UNDERPAINT: UNDERPAINT {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(F) &kp LC(A) &kp DEL &kp F &kp R &kp O &kp M &kp COLON &kp M &kp E &kp D &kp I &kp Q &kp O &kp L &kp A &kp SPACE &kp H &kp A &kp S &kp COLON &kp I &kp M &kp A &kp G &kp E &kp ENTER>;
+            label = "UNDERPAINT";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -192,7 +201,7 @@
             bindings = <
 &none  &none  &none  &none   &none   &bt BT_CLR_ALL    &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI
 &none  &none  &none  &none   &none   &bt BT_NXT        &none            &none            &kp LBKT         &kp RBKT         &kp SEMI         &none
-&none  &none  &none  &none   &none   &none             &none            &none            &none            &none            &kp BSLH         &none
+&none  &none  &none  &none   &none   &none             &UNDERPAINT      &none            &none            &none            &kp BSLH         &none
                      &trans  &trans  &trans            &trans           &trans           &trans
             >;
 
