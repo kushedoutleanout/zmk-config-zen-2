@@ -300,6 +300,78 @@
             key-positions = <29 16 27>;
             layers = <0 2 3 4 5 6 7>;
         };
+
+        tri_h_00 {
+            bindings = <&none>;
+            key-positions = <0 1 2>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        tri_h_01 {
+            bindings = <&none>;
+            key-positions = <1 2 3>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        tri_h_02 {
+            bindings = <&none>;
+            key-positions = <2 3 4>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        tri_h_03 {
+            bindings = <&none>;
+            key-positions = <4 5 3>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        tri_m_00 {
+            bindings = <&none>;
+            key-positions = <12 13 14>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        tri_m_01 {
+            bindings = <&none>;
+            key-positions = <13 14 15>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        tri_m_02 {
+            bindings = <&none>;
+            key-positions = <14 15 16>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        tri_m_03 {
+            bindings = <&none>;
+            key-positions = <15 16 17>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        tri_l_00 {
+            bindings = <&none>;
+            key-positions = <25 24 26>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        tri_l_01 {
+            bindings = <&none>;
+            key-positions = <25 26 27>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        tri_l_02 {
+            bindings = <&none>;
+            key-positions = <26 27 28>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        tri_l_03 {
+            bindings = <&none>;
+            key-positions = <27 28 29>;
+            layers = <0 2 3 4 5 6 7>;
+        };
     };
 
     macros {
