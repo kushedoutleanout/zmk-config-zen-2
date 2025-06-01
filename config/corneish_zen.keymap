@@ -219,7 +219,7 @@
         };
 
         gr_l_04 {
-            bindings = <&none>;
+            bindings = <&sl 7>;
             key-positions = <16 29>;
             layers = <0 2 3 4 5 6 7>;
         };
@@ -376,10 +376,10 @@
 
         symbol {
             bindings = <
-&none  &none  &none  &none   &none   &bt BT_CLR_ALL    &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI
-&none  &none  &none  &none   &none   &bt BT_NXT        &none            &none            &kp LBKT         &kp RBKT         &kp SEMI         &none
-&none  &none  &none  &none   &none   &none             &none            &none            &none            &none            &kp BSLH         &none
-                     &trans  &trans  &trans            &trans           &trans           &trans
+&none  &none  &none  &none   &none   &none     &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI
+&none  &none  &none  &none   &none   &none     &none            &none            &kp LBKT         &kp RBKT         &kp SEMI         &none
+&none  &none  &none  &none   &none   &none     &none            &none            &none            &none            &kp BSLH         &none
+                     &trans  &trans  &trans    &trans           &trans           &trans
             >;
 
             label = "SYMBOL";
