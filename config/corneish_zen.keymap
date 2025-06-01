@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/rgb.h>
 
 / {
@@ -50,7 +51,7 @@
         };
 
         bi_h_01 {
-            bindings = <&none>;
+            bindings = <&kp DELETE>;
             key-positions = <2 1>;
             layers = <0 2 3 4 5 6 7>;
         };
@@ -68,7 +69,7 @@
         };
 
         bi_h_04 {
-            bindings = <&none>;
+            bindings = <&kp SCROLLLOCK>;
             key-positions = <5 4>;
             layers = <0 2 3 4 5 6 7>;
         };
@@ -80,25 +81,25 @@
         };
 
         bi_m_01 {
-            bindings = <&none>;
+            bindings = <&kp NUMBER_1>;
             key-positions = <13 14>;
             layers = <0 2 3 4 5 6 7>;
         };
 
         bi_m_02 {
-            bindings = <&none>;
+            bindings = <&kp NUMBER_2>;
             key-positions = <14 15>;
             layers = <0 2 3 4 5 6 7>;
         };
 
         bi_m_03 {
-            bindings = <&none>;
+            bindings = <&kp NUMBER_6>;
             key-positions = <15 16>;
             layers = <0 2 3 4 5 6 7>;
         };
 
         bi_m_04 {
-            bindings = <&none>;
+            bindings = <&kp PAUSE_BREAK>;
             key-positions = <16 17>;
             layers = <0 2 3 4 5 6 7>;
         };
@@ -110,25 +111,25 @@
         };
 
         bi_l_01 {
-            bindings = <&none>;
+            bindings = <&kp NUMBER_4>;
             key-positions = <25 26>;
             layers = <0 2 3 4 5 6 7>;
         };
 
         bi_l_02 {
-            bindings = <&none>;
+            bindings = <&kp NUMBER_3>;
             key-positions = <26 27>;
             layers = <0 2 3 4 5 6 7>;
         };
 
         bi_l_03 {
-            bindings = <&none>;
+            bindings = <&kp N5>;
             key-positions = <27 28>;
             layers = <0 2 3 4 5 6 7>;
         };
 
         bi_l_04 {
-            bindings = <&none>;
+            bindings = <&kp LC(LS(NUMBER_4))>;
             key-positions = <28 29>;
             layers = <0 2 3 4 5 6 7>;
         };
@@ -170,19 +171,19 @@
         };
 
         ag_l_01 {
-            bindings = <&none>;
+            bindings = <&kp N9>;
             key-positions = <14 25>;
             layers = <0 2 3 4 5 6 7>;
         };
 
         ag_l_02 {
-            bindings = <&none>;
+            bindings = <&kp N7>;
             key-positions = <26 15>;
             layers = <0 2 3 4 5 6 7>;
         };
 
         ag_l_03 {
-            bindings = <&none>;
+            bindings = <&kp N8>;
             key-positions = <16 27>;
             layers = <0 2 3 4 5 6 7>;
         };
@@ -218,7 +219,7 @@
         };
 
         ag_h_04 {
-            bindings = <&none>;
+            bindings = <&out OUT_TOG>;
             key-positions = <4 17>;
             layers = <0 2 3 4 5 6 7>;
         };
@@ -230,19 +231,19 @@
         };
 
         ag_l_01 {
-            bindings = <&none>;
+            bindings = <&kp EQUAL>;
             key-positions = <13 26>;
             layers = <0 2 3 4 5 6 7>;
         };
 
         ag_l_02 {
-            bindings = <&none>;
+            bindings = <&kp N0>;
             key-positions = <14 27>;
             layers = <0 2 3 4 5 6 7>;
         };
 
         ag_l_03 {
-            bindings = <&none>;
+            bindings = <&kp MINUS>;
             key-positions = <15 28>;
             layers = <0 2 3 4 5 6 7>;
         };
