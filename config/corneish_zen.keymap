@@ -132,6 +132,66 @@
             key-positions = <28 29>;
             layers = <0 2 3 4 5 6 7>;
         };
+
+        ag_h_00 {
+            bindings = <&none>;
+            key-positions = <12 1>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        ag_h_01 {
+            bindings = <&none>;
+            key-positions = <13 2>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        ag_h_02 {
+            bindings = <&none>;
+            key-positions = <14 3>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        ag_h_03 {
+            bindings = <&none>;
+            key-positions = <15 4>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        ag_h_04 {
+            bindings = <&none>;
+            key-positions = <5 16>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        ag_l_00 {
+            bindings = <&none>;
+            key-positions = <24 13>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        ag_l_01 {
+            bindings = <&none>;
+            key-positions = <14 25>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        ag_l_02 {
+            bindings = <&none>;
+            key-positions = <26 15>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        ag_l_03 {
+            bindings = <&none>;
+            key-positions = <16 27>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        ag_l_04 {
+            bindings = <&none>;
+            key-positions = <17 28>;
+            layers = <0 2 3 4 5 6 7>;
+        };
     };
 
     macros {
