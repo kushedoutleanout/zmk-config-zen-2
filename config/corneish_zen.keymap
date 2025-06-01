@@ -192,6 +192,114 @@
             key-positions = <17 28>;
             layers = <0 2 3 4 5 6 7>;
         };
+
+        gr_h_00 {
+            bindings = <&none>;
+            key-positions = <0 13>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        ag_h_01 {
+            bindings = <&none>;
+            key-positions = <1 14>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        ag_h_02 {
+            bindings = <&none>;
+            key-positions = <2 15>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        ag_h_03 {
+            bindings = <&none>;
+            key-positions = <3 16>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        ag_h_04 {
+            bindings = <&none>;
+            key-positions = <4 17>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        ag_l_00 {
+            bindings = <&none>;
+            key-positions = <12 25>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        ag_l_01 {
+            bindings = <&none>;
+            key-positions = <13 26>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        ag_l_02 {
+            bindings = <&none>;
+            key-positions = <14 27>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        ag_l_03 {
+            bindings = <&none>;
+            key-positions = <15 28>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        ag_l_04 {
+            bindings = <&none>;
+            key-positions = <16 29>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        cr_h_00 {
+            bindings = <&none>;
+            key-positions = <12 1 14>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        cr_h_01 {
+            bindings = <&none>;
+            key-positions = <13 2 15>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        cr_h_02 {
+            bindings = <&none>;
+            key-positions = <14 3 16>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        cr_h_03 {
+            bindings = <&none>;
+            key-positions = <17 4 15>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        cr_l_00 {
+            bindings = <&none>;
+            key-positions = <24 13 26>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        cr_l_01 {
+            bindings = <&none>;
+            key-positions = <27 14 25>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        cr_l_03 {
+            bindings = <&none>;
+            key-positions = <26 15 28>;
+            layers = <0 2 3 4 5 6 7>;
+        };
+
+        cr_l_04 {
+            bindings = <&none>;
+            key-positions = <29 16 27>;
+            layers = <0 2 3 4 5 6 7>;
+        };
     };
 
     macros {
