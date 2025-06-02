@@ -368,8 +368,8 @@
             display-name = "FUNCTION";
             bindings = <
 &trans          &kp F7  &kp F8  &kp F9  &kp F12  &none     &none   &none   &kp HOME        &kp UP_ARROW    &kp PAGE_UP    &kp PRINTSCREEN
-&kp LEFT_SHIFT  &kp F4  &kp F5  &kp F6  &kp F11  &none     &none   &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT      &kp LEFT_SHIFT
-&kp LCTRL       &kp F1  &kp F2  &kp F3  &kp F10  &none     &none   &none   &kp END         &kp INSERT      &kp PAGE_DOWN  &kp LCTRL
+&kp LEFT_SHIFT  &kp F4  &kp F5  &kp F6  &kp F11  &none     &none   &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT      &kp RIGHT_SHIFT
+&kp LCTRL       &kp F1  &kp F2  &kp F3  &kp F10  &none     &none   &none   &kp END         &kp INSERT      &kp PAGE_DOWN  &kp LEFT_CONTROL
                                 &trans  &trans   &trans    &trans  &trans  &trans
             >;
         };
