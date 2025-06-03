@@ -171,7 +171,7 @@
         };
 
         gr_h_00 {
-            bindings = <&none>;
+            bindings = <&kp CAPSLOCK>;
             key-positions = <0 13>;
             layers = <0 2 3 5 4 6 7>;
         };
