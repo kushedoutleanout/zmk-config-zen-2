@@ -177,13 +177,13 @@
         };
 
         gr_h_01 {
-            bindings = <&kp RIGHT_BRACKET>;
+            bindings = <&kp GRAVE>;
             key-positions = <1 14>;
             layers = <0 2 3 5 4 6 7>;
         };
 
         gr_h_02 {
-            bindings = <&none>;
+            bindings = <&kp LEFT_BRACKET>;
             key-positions = <2 15>;
             layers = <0 2 3 5 4 6 7>;
         };
