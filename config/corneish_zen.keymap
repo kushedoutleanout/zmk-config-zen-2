@@ -189,7 +189,7 @@
         };
 
         gr_h_03 {
-            bindings = <&none>;
+            bindings = <&kp KP_DOT>;
             key-positions = <3 16>;
             layers = <0 2 3 5 4 6 7>;
         };
