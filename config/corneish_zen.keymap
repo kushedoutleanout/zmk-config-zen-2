@@ -47,7 +47,7 @@
         bi_h_00 {
             bindings = <&kp ESCAPE>;
             key-positions = <1 0>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 6 7 1>;
         };
 
         bi_h_01 {
@@ -123,7 +123,7 @@
         };
 
         ag_h_01 {
-            bindings = <&kp LEFT_BRACE>;
+            bindings = <&kp LEFT_BRACKET>;
             key-positions = <13 2>;
             layers = <0 2 3 5 4 6 7>;
         };
@@ -177,7 +177,7 @@
         };
 
         gr_h_01 {
-            bindings = <&kp RIGHT_BRACE>;
+            bindings = <&kp RIGHT_BRACKET>;
             key-positions = <1 14>;
             layers = <0 2 3 5 4 6 7>;
         };
@@ -197,7 +197,7 @@
         gr_h_04 {
             bindings = <&out OUT_TOG>;
             key-positions = <4 17>;
-            layers = <0 2 3 5 4 6 7 1>;
+            layers = <0 2 3 5 4 6 7>;
         };
 
         gr_l_01 {
@@ -221,18 +221,18 @@
         gr_l_04 {
             bindings = <&sl 7>;
             key-positions = <16 29>;
-            layers = <0 2 3 5 4 6 7 1>;
+            layers = <0 2 3 5 4 6 7>;
         };
 
         cr_h_01 {
-            bindings = <&none>;
+            bindings = <&kp BACKSLASH>;
             key-positions = <13 2 15>;
             layers = <0 2 3 5 4 6 7>;
         };
 
         cr_h_02 {
             bindings = <&none>;
-            key-positions = <14 3 16 29>;
+            key-positions = <14 3 16>;
             layers = <0 2 3 5 4 6 7>;
         };
 
@@ -388,7 +388,7 @@
         symbol {
             bindings = <
 &none  &none  &none  &none   &none   &none     &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI
-&none  &none  &none  &none   &none   &none     &none            &none            &kp LBKT         &kp RBKT         &kp SEMI         &none
+&none  &none  &none  &none   &none   &none     &none            &none            &none            &kp SEMICOLON    &kp COLON        &none
 &none  &none  &none  &none   &none   &none     &none            &none            &none            &none            &kp BSLH         &none
                      &trans  &trans  &trans    &trans           &trans           &trans
             >;
