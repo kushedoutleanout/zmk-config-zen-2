@@ -201,7 +201,7 @@
         };
 
         gr_l_01 {
-            bindings = <&kp EQUAL>;
+            bindings = <&kp MINUS>;
             key-positions = <13 26>;
             layers = <0 2 3 5 4 6 7>;
         };
@@ -213,7 +213,7 @@
         };
 
         gr_l_03 {
-            bindings = <&kp MINUS>;
+            bindings = <&kp EQUAL>;
             key-positions = <15 28>;
             layers = <0 2 3 5 4 6 7>;
         };
