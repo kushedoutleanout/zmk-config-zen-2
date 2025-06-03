@@ -143,7 +143,7 @@
         ag_h_04 {
             bindings = <&none>;
             key-positions = <5 16>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 6 7 1>;
         };
 
         ag_l_01 {
