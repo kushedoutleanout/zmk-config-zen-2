@@ -57,13 +57,13 @@
         };
 
         bi_h_02 {
-            bindings = <&none>;
+            bindings = <&kp KP_MINUS>;
             key-positions = <2 3>;
             layers = <0 2 3 5 4 6 7>;
         };
 
         bi_h_03 {
-            bindings = <&none>;
+            bindings = <&kp KP_PLUS>;
             key-positions = <3 4>;
             layers = <0 2 3 5 4 6 7>;
         };
@@ -129,13 +129,13 @@
         };
 
         ag_h_02 {
-            bindings = <&none>;
+            bindings = <&kp KP_DIVIDE>;
             key-positions = <14 3>;
             layers = <0 2 3 5 4 6 7>;
         };
 
         ag_h_03 {
-            bindings = <&none>;
+            bindings = <&kp KP_MULTIPLY>;
             key-positions = <15 4>;
             layers = <0 2 3 5 4 6 7>;
         };
