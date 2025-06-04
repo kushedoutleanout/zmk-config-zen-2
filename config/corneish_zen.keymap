@@ -129,13 +129,13 @@
         };
 
         ag_h_02 {
-            bindings = <&kp KP_DIVIDE>;
+            bindings = <&kp KP_MINUS>;
             key-positions = <14 3>;
             layers = <0 2 3 5 4 6 7>;
         };
 
         ag_h_03 {
-            bindings = <&kp KP_MULTIPLY>;
+            bindings = <&kp KP_PLUS>;
             key-positions = <15 4>;
             layers = <0 2 3 5 4 6 7>;
         };
@@ -231,13 +231,13 @@
         };
 
         cr_h_02 {
-            bindings = <&none>;
+            bindings = <&kp LG(A)>;
             key-positions = <14 3 16>;
             layers = <0 2 3 5 4 6 7>;
         };
 
         cr_h_03 {
-            bindings = <&none>;
+            bindings = <&kp LG(UP_ARROW)>;
             key-positions = <17 4 15>;
             layers = <0 2 3 5 4 6 7>;
         };
@@ -249,13 +249,13 @@
         };
 
         cr_l_03 {
-            bindings = <&none>;
+            bindings = <&kp LG(LEFT_ARROW)>;
             key-positions = <26 15 28>;
             layers = <0 2 3 5 4 6 7>;
         };
 
         cr_l_04 {
-            bindings = <&none>;
+            bindings = <&kp LG(RIGHT_ARROW)>;
             key-positions = <29 16 27>;
             layers = <0 2 3 5 4 6 7>;
         };
@@ -273,7 +273,7 @@
         };
 
         tri_h_02 {
-            bindings = <&kp LG(A)>;
+            bindings = <&none>;
             key-positions = <2 3 4>;
             layers = <0 2 3 5 4 6 7>;
         };
@@ -297,7 +297,7 @@
         };
 
         tri_m_03 {
-            bindings = <&kp LG(UP_ARROW)>;
+            bindings = <&none>;
             key-positions = <15 16 17>;
             layers = <0 2 3 5 4 6 7>;
         };
@@ -309,13 +309,13 @@
         };
 
         tri_l_02 {
-            bindings = <&kp LG(LEFT)>;
+            bindings = <&none>;
             key-positions = <26 27 28>;
             layers = <0 2 3 5 4 6 7>;
         };
 
         tri_l_03 {
-            bindings = <&kp LG(RIGHT_ARROW)>;
+            bindings = <&none>;
             key-positions = <27 28 29>;
             layers = <0 2 3 5 4 6 7>;
         };
