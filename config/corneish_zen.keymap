@@ -303,13 +303,13 @@
         };
 
         tri_l_01 {
-            bindings = <&none>;
+            bindings = <&kp COMMA>;
             key-positions = <25 26 27>;
             layers = <0 2 3 5 4 6 7>;
         };
 
         tri_l_02 {
-            bindings = <&none>;
+            bindings = <&kp PERIOD>;
             key-positions = <26 27 28>;
             layers = <0 2 3 5 4 6 7>;
         };
