@@ -285,13 +285,13 @@
         };
 
         tri_m_01 {
-            bindings = <&none>;
+            bindings = <&kp SEMICOLON>;
             key-positions = <13 14 15>;
             layers = <0 2 3 5 4 6 7>;
         };
 
         tri_m_02 {
-            bindings = <&none>;
+            bindings = <&kp SQT>;
             key-positions = <14 15 16>;
             layers = <0 2 3 5 4 6 7>;
         };
