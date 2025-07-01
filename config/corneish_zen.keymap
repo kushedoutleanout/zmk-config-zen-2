@@ -159,7 +159,7 @@
         };
 
         ag_l_03 {
-            bindings = <&kp N8>;
+            bindings = <&kp KP_DIVIDE>;
             key-positions = <16 27>;
             layers = <0 2 3 5 4 6 7>;
         };
@@ -201,7 +201,7 @@
         };
 
         gr_l_01 {
-            bindings = <&kp MINUS>;
+            bindings = <&kp N8>;
             key-positions = <13 26>;
             layers = <0 2 3 5 4 6 7>;
         };
