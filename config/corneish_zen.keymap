@@ -87,7 +87,7 @@
         };
 
         bi_m_03 {
-            bindings = <&kp NUMBER_6>;
+            bindings = <&kp KP_PLUS>;
             key-positions = <15 16>;
             layers = <0 2 3 5 4 6 7>;
         };
@@ -111,7 +111,7 @@
         };
 
         bi_l_03 {
-            bindings = <&kp N5>;
+            bindings = <&kp KP_MINUS>;
             key-positions = <27 28>;
             layers = <0 2 3 5 4 6 7>;
         };
@@ -189,7 +189,7 @@
         };
 
         gr_h_03 {
-            bindings = <&kp KP_DOT>;
+            bindings = <&none>;
             key-positions = <3 16>;
             layers = <0 2 3 5 4 6 7>;
         };
@@ -345,7 +345,7 @@
         };
 
         g_bi_m_01 {
-            bindings = <&none>;
+            bindings = <&kp N5>;
             key-positions = <13 15>;
             layers = <0 2 3 5 4 6 7>;
         };
@@ -363,7 +363,7 @@
         };
 
         g_bi_l_01 {
-            bindings = <&none>;
+            bindings = <&kp NUMBER_6>;
             key-positions = <25 27>;
             layers = <0 2 3 5 4 6 7>;
         };
