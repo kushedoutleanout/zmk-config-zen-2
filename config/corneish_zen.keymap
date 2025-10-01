@@ -473,6 +473,15 @@
                                             &none         &none  &none    &none  &none  &none
             >;
         };
+
+        MOVE {
+            bindings = <
+&trans  &trans        &kp N1        &trans            &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp N2  &kp LC(LEFT)  &kp LC(DOWN)  &kp LC(UP_ARROW)  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp N2  &trans        &trans        &trans            &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                    &trans            &kp N1  &kp N1    &trans  &trans  &trans
+            >;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
