@@ -375,7 +375,7 @@
         };
 
         g_bi_l_03 {
-            bindings = <&none>;
+            bindings = <&tog 8>;
             key-positions = <29 27>;
             layers = <0 2 3 5 4 6 7>;
         };
@@ -476,7 +476,7 @@
 
         MOVE {
             bindings = <
-&trans  &trans        &kp N1        &trans            &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&tog 0  &trans        &kp N1        &trans            &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &kp N2  &kp LC(LEFT)  &kp LC(DOWN)  &kp LC(UP_ARROW)  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &kp N2  &trans        &trans        &trans            &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                                     &trans            &kp N1  &kp N1    &trans  &trans  &trans
