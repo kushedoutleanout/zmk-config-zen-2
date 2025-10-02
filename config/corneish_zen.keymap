@@ -47,337 +47,337 @@
         bi_h_00 {
             bindings = <&kp ESCAPE>;
             key-positions = <1 0>;
-            layers = <0 2 3 5 4 6 7 1>;
+            layers = <0 2 3 5 4 8 9 1>;
         };
 
         bi_h_01 {
             bindings = <&kp DELETE>;
             key-positions = <2 1>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         bi_h_02 {
             bindings = <&kp F11>;
             key-positions = <2 3>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         bi_h_03 {
             bindings = <&kp F12>;
             key-positions = <3 4>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         bi_h_04 {
             bindings = <&kp SCROLLLOCK>;
             key-positions = <5 4>;
-            layers = <0 2 3 5 4 6 7 1>;
+            layers = <0 2 3 5 4 8 9 1>;
         };
 
         bi_m_01 {
             bindings = <&kp NUMBER_1>;
             key-positions = <13 14>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         bi_m_02 {
             bindings = <&kp NUMBER_2>;
             key-positions = <14 15>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         bi_m_03 {
             bindings = <&kp KP_PLUS>;
             key-positions = <15 16>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         bi_m_04 {
             bindings = <&kp PAUSE_BREAK>;
             key-positions = <16 17>;
-            layers = <0 2 3 5 4 6 7 1>;
+            layers = <0 2 3 5 4 8 9 1>;
         };
 
         bi_l_01 {
             bindings = <&kp NUMBER_4>;
             key-positions = <25 26>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         bi_l_02 {
             bindings = <&kp NUMBER_3>;
             key-positions = <26 27>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         bi_l_03 {
             bindings = <&kp KP_MINUS>;
             key-positions = <27 28>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         bi_l_04 {
             bindings = <&kp LC(LS(NUMBER_4))>;
             key-positions = <28 29>;
-            layers = <0 2 3 5 4 6 7 1>;
+            layers = <0 2 3 5 4 8 9 1>;
         };
 
         ag_h_01 {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <13 2>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         ag_h_02 {
             bindings = <&kp KP_MINUS>;
             key-positions = <14 3>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         ag_h_03 {
             bindings = <&kp KP_PLUS>;
             key-positions = <15 4>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         ag_h_04 {
             bindings = <&none>;
             key-positions = <5 16>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         ag_l_01 {
             bindings = <&kp N9>;
             key-positions = <14 25>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         ag_l_02 {
             bindings = <&kp N7>;
             key-positions = <26 15>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         ag_l_03 {
             bindings = <&kp KP_DIVIDE>;
             key-positions = <16 27>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         ag_l_04 {
             bindings = <&none>;
             key-positions = <17 28>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         gr_h_00 {
             bindings = <&kp CAPSLOCK>;
             key-positions = <0 13>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         gr_h_01 {
             bindings = <&kp GRAVE>;
             key-positions = <1 14>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         gr_h_02 {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <2 15>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         gr_h_03 {
             bindings = <&none>;
             key-positions = <3 16>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         gr_h_04 {
             bindings = <&out OUT_TOG>;
             key-positions = <4 17>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         gr_l_01 {
             bindings = <&kp N8>;
             key-positions = <13 26>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         gr_l_02 {
             bindings = <&kp N0>;
             key-positions = <14 27>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         gr_l_03 {
             bindings = <&kp EQUAL>;
             key-positions = <15 28>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         gr_l_04 {
-            bindings = <&sl 7>;
+            bindings = <&sl 9>;
             key-positions = <16 29>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         cr_h_01 {
             bindings = <&kp BACKSLASH>;
             key-positions = <13 2 15>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         cr_h_02 {
             bindings = <&kp LG(A)>;
             key-positions = <14 3 16>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         cr_h_03 {
             bindings = <&kp LG(UP_ARROW)>;
             key-positions = <17 4 15>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         cr_l_01 {
-            bindings = <&kp SLASH>;
+            bindings = <&sl 6>;
             key-positions = <27 14 25>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         cr_l_03 {
             bindings = <&kp LG(LEFT_ARROW)>;
             key-positions = <26 15 28>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         cr_l_04 {
             bindings = <&kp LG(RIGHT_ARROW)>;
             key-positions = <29 16 27>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         tri_h_00 {
             bindings = <&none>;
             key-positions = <0 1 2>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         tri_h_01 {
             bindings = <&none>;
             key-positions = <1 2 3>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         tri_h_02 {
             bindings = <&none>;
             key-positions = <2 3 4>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         tri_h_03 {
             bindings = <&kp LG(C)>;
             key-positions = <4 5 3>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         tri_m_01 {
             bindings = <&kp SEMICOLON>;
             key-positions = <13 14 15>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         tri_m_02 {
             bindings = <&kp SQT>;
             key-positions = <14 15 16>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         tri_m_03 {
             bindings = <&none>;
             key-positions = <15 16 17>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         tri_l_01 {
             bindings = <&kp COMMA>;
             key-positions = <25 26 27>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         tri_l_02 {
             bindings = <&kp PERIOD>;
             key-positions = <26 27 28>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         tri_l_03 {
             bindings = <&none>;
             key-positions = <27 28 29>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         g_bi_h_00 {
             bindings = <&none>;
             key-positions = <0 2>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         g_bi_h_01 {
             bindings = <&none>;
             key-positions = <3 1>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         g_bi_h_03 {
             bindings = <&none>;
             key-positions = <4 2>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         g_bi_h_04 {
             bindings = <&none>;
             key-positions = <5 3>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         g_bi_m_01 {
             bindings = <&kp N5>;
             key-positions = <13 15>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         g_bi_m_02 {
             bindings = <&kp KP_MULTIPLY>;
             key-positions = <16 14>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         g_bi_m_03 {
             bindings = <&none>;
             key-positions = <17 15>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         g_bi_l_01 {
             bindings = <&kp NUMBER_6>;
             key-positions = <25 27>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         g_bi_l_02 {
             bindings = <&kp KP_DOT>;
             key-positions = <28 26>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
 
         g_bi_l_03 {
-            bindings = <&to 8>;
+            bindings = <&none>;
             key-positions = <29 27>;
-            layers = <0 2 3 5 4 6 7>;
+            layers = <0 2 3 5 4 8 9>;
         };
     };
 
@@ -456,6 +456,24 @@
             label = "SYMBOL";
         };
 
+        STK_ROOT {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &sl 10  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        MOVE {
+            bindings = <
+&to 0           &none           &kp UP_ARROW    &none            &none         &none        &none  &none  &none  &none  &none  &none
+&kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none         &none        &none  &none  &none  &none  &none  &none
+&kp RCTRL       &none           &none           &none            &none         &none        &none  &none  &none  &none  &none  &none
+                                                &none            &kp LEFT_ALT  &kp SPACE    &none  &none  &none
+            >;
+        };
+
         STK_MEDIA {
             bindings = <
 &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
@@ -474,12 +492,21 @@
             >;
         };
 
-        MOVE {
+        STK_ADJUST {
             bindings = <
-&to 0           &none           &kp UP_ARROW    &none            &none         &none        &none  &none  &none  &none  &none  &none
-&kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none         &none        &none  &none  &none  &none  &none  &none
-&kp RCTRL       &none           &none           &none            &none         &none        &none  &none  &none  &none  &none  &none
-                                                &none            &kp LEFT_ALT  &kp SPACE    &none  &none  &none
+&none  &kp LC(F7)  &kp LC(F8)  &kp LC(F9)  &none        &none    &none  &none  &none  &none  &none  &none
+&none  &kp LC(F4)  &kp LC(F5)  &kp LC(F6)  &none        &none    &none  &none  &none  &none  &none  &none
+&none  &kp LC(F1)  &kp LC(F2)  &kp LC(F3)  &kp LC(F10)  &none    &none  &none  &none  &none  &none  &none
+                               &none       &none        &none    &none  &none  &none
+            >;
+        };
+
+        STK_ADJUST_L {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
