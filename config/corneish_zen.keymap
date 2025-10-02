@@ -465,10 +465,10 @@
 
         S_ROOT {
             bindings = <
-&trans  &sl 0   &sl 10  &sl 13  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &sl 0   &sl 8   &sl 11  &to 15  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &sl 9   &sl 12  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &sl 0  &sl 10  &sl 13  &sl 14  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &sl 0  &sl 8   &sl 11  &to 18  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &sl 0  &sl 9   &sl 12  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                       &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
@@ -526,7 +526,7 @@
             >;
         };
 
-        L_ALPHAS_SCHTRL {
+        S_L_ALPHAS_SCHTRL {
             bindings = <
 &trans  &kp LS(LC(Q))  &kp LS(LC(W))  &kp LS(LC(E))  &kp LS(LC(R))  &kp LS(LC(T))    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LS(LC(A))  &kp LS(LC(S))  &kp LS(LC(D))  &kp LS(LC(F))  &kp LS(LC(G))    &trans  &trans  &trans  &trans  &trans  &trans
@@ -535,12 +535,39 @@
             >;
         };
 
-        T_MOVE {
+        S_R_ALPHAS {
             bindings = <
-&to 0           &none               &kp LC(UP_ARROW)    &none                &none         &none        &none  &none  &none  &none  &none  &none
-&kp LEFT_SHIFT  &kp LC(LEFT_ARROW)  &kp LC(DOWN_ARROW)  &kp LC(RIGHT_ARROW)  &none         &none        &none  &none  &none  &none  &none  &none
-&none           &none               &none               &none                &none         &none        &none  &none  &none  &none  &none  &none
-                                                        &none                &kp LEFT_ALT  &kp SPACE    &none  &none  &none
+&none  &kp Y  &kp U  &kp I  &kp O  &kp P    &none  &none  &none  &none  &none  &none
+&none  &kp H  &kp J  &kp K  &kp L  &none    &none  &none  &none  &none  &none  &none
+&none  &kp N  &kp M  &none  &none  &none    &none  &none  &none  &none  &none  &none
+                     &none  &none  &none    &none  &none  &none
+            >;
+        };
+
+        S_R_ALPHAS_SHIFT {
+            bindings = <
+&none  &kp LS(Y)  &kp LS(U)  &kp LS(I)  &kp LS(O)  &kp LS(P)    &none  &none  &none  &none  &none  &none
+&none  &kp LS(H)  &kp LS(J)  &kp LS(K)  &kp LS(L)  &none        &none  &none  &none  &none  &none  &none
+&none  &kp LS(N)  &kp LS(M)  &none      &none      &none        &none  &none  &none  &none  &none  &none
+                             &none      &none      &none        &none  &none  &none
+            >;
+        };
+
+        S_R_ALPHAS_SHCTRL {
+            bindings = <
+&none  &kp LS(LC(Y))  &kp LS(LC(U))  &kp LS(LC(I))  &kp LS(LC(O))  &kp LS(LC(P))    &none  &none  &none  &none  &none  &none
+&none  &kp LS(LC(H))  &kp LS(LC(J))  &kp LS(LC(K))  &kp LS(LC(L))  &none            &none  &none  &none  &none  &none  &none
+&none  &kp LS(LC(N))  &kp LS(LC(M))  &none          &none          &none            &none  &none  &none  &none  &none  &none
+                                     &none          &none          &none            &none  &none  &none
+            >;
+        };
+
+        T_ARROWS {
+            bindings = <
+&to 0           &none           &kp UP_ARROW    &none            &none         &none        &none  &none  &none  &none  &none  &none
+&kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none         &none        &none  &none  &none  &none  &none  &none
+&kp LCTRL       &none           &none           &none            &none         &none        &none  &none  &none  &none  &none  &none
+                                                &none            &kp LEFT_ALT  &kp SPACE    &none  &none  &none
             >;
         };
     };
