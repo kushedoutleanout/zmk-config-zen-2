@@ -129,13 +129,13 @@
         };
 
         ag_h_02 {
-            bindings = <&kp KP_MINUS>;
+            bindings = <&none>;
             key-positions = <14 3>;
             layers = <0 2 3 4 5 6>;
         };
 
         ag_h_03 {
-            bindings = <&kp KP_PLUS>;
+            bindings = <&none>;
             key-positions = <15 4>;
             layers = <0 2 3 4 5 6>;
         };
@@ -189,7 +189,7 @@
         };
 
         gr_h_03 {
-            bindings = <&none>;
+            bindings = <&kp MINUS>;
             key-positions = <3 16>;
             layers = <0 2 3 4 5 6>;
         };
