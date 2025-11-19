@@ -123,13 +123,13 @@
         };
 
         ag_h_01 {
-            bindings = <&kp LEFT_BRACKET>;
+            bindings = <&kp O>;
             key-positions = <13 2>;
             layers = <0 2 3 4 5 6>;
         };
 
         ag_h_02 {
-            bindings = <&none>;
+            bindings = <&kp P>;
             key-positions = <14 3>;
             layers = <0 2 3 4 5 6>;
         };
@@ -177,19 +177,19 @@
         };
 
         gr_h_01 {
-            bindings = <&kp GRAVE>;
+            bindings = <&kp Y>;
             key-positions = <1 14>;
             layers = <0 2 3 4 5 6>;
         };
 
         gr_h_02 {
-            bindings = <&kp RIGHT_BRACKET>;
+            bindings = <&kp I>;
             key-positions = <2 15>;
             layers = <0 2 3 4 5 6>;
         };
 
         gr_h_03 {
-            bindings = <&kp MINUS>;
+            bindings = <&kp H>;
             key-positions = <3 16>;
             layers = <0 2 3 4 5 6>;
         };
@@ -213,7 +213,7 @@
         };
 
         gr_l_03 {
-            bindings = <&kp EQUAL>;
+            bindings = <&kp L>;
             key-positions = <15 28>;
             layers = <0 2 3 4 5 6>;
         };
@@ -225,7 +225,7 @@
         };
 
         cr_h_01 {
-            bindings = <&kp BACKSLASH>;
+            bindings = <&kp U>;
             key-positions = <13 2 15>;
             layers = <0 2 3 4 5 6>;
         };
@@ -267,13 +267,13 @@
         };
 
         tri_h_01 {
-            bindings = <&none>;
+            bindings = <&kp K>;
             key-positions = <1 2 3>;
             layers = <0 2 3 4 5 6>;
         };
 
         tri_h_02 {
-            bindings = <&none>;
+            bindings = <&kp J>;
             key-positions = <2 3 4>;
             layers = <0 2 3 4 5 6>;
         };
@@ -285,13 +285,13 @@
         };
 
         tri_m_01 {
-            bindings = <&kp SEMICOLON>;
+            bindings = <&kp N>;
             key-positions = <13 14 15>;
             layers = <0 2 3 4 5 6>;
         };
 
         tri_m_02 {
-            bindings = <&kp SQT>;
+            bindings = <&kp M>;
             key-positions = <14 15 16>;
             layers = <0 2 3 4 5 6>;
         };
