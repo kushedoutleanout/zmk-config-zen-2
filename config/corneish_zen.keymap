@@ -379,12 +379,6 @@
             key-positions = <29 27>;
             layers = <0 2 3 4 5>;
         };
-
-        testing {
-            bindings = <&kp K_PLAY_PAUSE>;
-            key-positions = <24 2 37>;
-            layers = <0 2 3 4 5>;
-        };
     };
 
     macros {
