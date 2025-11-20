@@ -34,6 +34,12 @@
             #binding-cells = <0>;
             bindings = <&mo 2>, <&kp LEFT_GUI>;
         };
+
+        Mouse_click: Mouse_click {
+            compatible = "zmk,behavior-mouse-key-press";
+            label = "MOUSE_CLICK";
+            #binding-cells = <1>;
+        };
     };
 
     combos {
