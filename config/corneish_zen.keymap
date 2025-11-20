@@ -142,7 +142,7 @@
         };
 
         ag_h_03 {
-            bindings = <&kp F20>;
+            bindings = <&none>;
             key-positions = <15 4>;
             layers = <0 2 3 4 5>;
         };
