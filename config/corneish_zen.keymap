@@ -415,12 +415,6 @@
             key-positions = <15 14 28>;
             layers = <0 2 3 4 5>;
         };
-
-        arc_gr_inv_h_01 {
-            bindings = <&kp SLASH>;
-            key-positions = <2 1 15>;
-            layers = <0 2 3 4 5>;
-        };
     };
 
     macros {
