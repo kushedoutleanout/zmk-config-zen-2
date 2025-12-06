@@ -243,7 +243,7 @@
         };
 
         cr_h_03 {
-            bindings = <&kp LG(UP_ARROW)>;
+            bindings = <&none>;
             key-positions = <17 4 15>;
             layers = <0 2 3 4 5>;
         };
@@ -255,13 +255,13 @@
         };
 
         cr_l_03 {
-            bindings = <&kp LG(LEFT_ARROW)>;
+            bindings = <&none>;
             key-positions = <26 15 28>;
             layers = <0 2 3 4 5>;
         };
 
         cr_l_04 {
-            bindings = <&kp LG(RIGHT_ARROW)>;
+            bindings = <&none>;
             key-positions = <29 16 27>;
             layers = <0 2 3 4 5>;
         };
@@ -385,6 +385,42 @@
             key-positions = <29 27>;
             layers = <0 2 3 4 5>;
         };
+
+        qua_ag_l_01 {
+            bindings = <&kp LG(UP_ARROW)>;
+            key-positions = <15 25 26 16>;
+            layers = <0 2 3 4 5>;
+        };
+
+        arc_ag_l_01 {
+            bindings = <&kp LG(LEFT_ARROW)>;
+            key-positions = <26 15 25>;
+            layers = <0 2 3 4 5>;
+        };
+
+        spike_l_01 {
+            bindings = <&kp LG(RIGHT)>;
+            key-positions = <26 15 25 28>;
+            layers = <0 2 3 4 5>;
+        };
+
+        arc_gr_inv_l_01 {
+            bindings = <&kp MINUS>;
+            key-positions = <13 14 27>;
+            layers = <0 2 3 4 5>;
+        };
+
+        arc_gr_inv_l_02 {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <15 14 28>;
+            layers = <0 2 3 4 5>;
+        };
+
+        arc_gr_inv_h_01 {
+            bindings = <&kp SLASH>;
+            key-positions = <2 1 15>;
+            layers = <0 2 3 4 5>;
+        };
     };
 
     macros {
@@ -443,8 +479,8 @@
         SYM_RGB {
             bindings = <
 &none  &none  &none  &none   &none   &none     &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI
-&none  &none  &none  &none   &none   &none     &none            &none            &none            &kp SEMICOLON    &kp COLON        &none
-&none  &none  &none  &none   &none   &none     &none            &none            &none            &none            &kp BSLH         &none
+&none  &none  &none  &none   &none   &none     &none            &kp LBKT         &kp RBKT         &kp SEMICOLON    &kp COLON        &none
+&none  &none  &none  &none   &none   &none     &kp GRAVE        &kp EQUAL        &kp MINUS        &none            &kp BSLH         &none
                      &trans  &trans  &trans    &trans           &trans           &trans
             >;
 
