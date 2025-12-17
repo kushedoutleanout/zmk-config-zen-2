@@ -48,6 +48,8 @@
                 <&kp LEFT_ALT>,
                 <&kp LC(LS(LEFT_ALT))>,
                 <&kp LS(LEFT_ALT)>;
+
+            tapping-term-ms = <100>;
         };
 
         td4: td4 {
@@ -58,6 +60,8 @@
                 <&kp LEFT_CONTROL>,
                 <&kp LS(LEFT_CONTROL)>,
                 <&kp LEFT_SHIFT>;
+
+            tapping-term-ms = <100>;
         };
     };
 
