@@ -49,8 +49,6 @@
                 <&kp LC(LEFT_SHIFT)>,
                 <&kp LA(LEFT_SHIFT)>,
                 <&kp LSHIFT>;
-
-            tapping-term-ms = <170>;
         };
     };
 
