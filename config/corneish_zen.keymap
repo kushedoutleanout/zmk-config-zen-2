@@ -49,7 +49,7 @@
                 <&kp LC(LS(LEFT_ALT))>,
                 <&kp LS(LEFT_ALT)>;
 
-            tapping-term-ms = <100>;
+            tapping-term-ms = <150>;
         };
 
         td4: td4 {
@@ -61,7 +61,7 @@
                 <&kp LS(LEFT_CONTROL)>,
                 <&kp LEFT_SHIFT>;
 
-            tapping-term-ms = <100>;
+            tapping-term-ms = <150>;
         };
     };
 
