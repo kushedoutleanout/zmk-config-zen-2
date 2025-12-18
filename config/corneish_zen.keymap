@@ -444,10 +444,10 @@
 
         gaming {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&none   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &none   &trans    &trans  &trans  &trans
+&trans     &trans  &trans  &trans  &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans  &trans  &trans  &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &trans  &trans  &trans  &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                           &trans  &kp LEFT_ALT  &trans    &trans  &trans  &trans
             >;
 
             label = "GAME";
