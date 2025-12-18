@@ -39,17 +39,6 @@
             label = "MOUSE_CLICK";
             #binding-cells = <1>;
         };
-
-        td3: td3 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD3";
-            #binding-cells = <0>;
-            bindings =
-                <&kp LC(LA(LEFT_SHIFT))>,
-                <&kp LC(LEFT_SHIFT)>,
-                <&kp LA(LEFT_SHIFT)>,
-                <&kp LSHIFT>;
-        };
     };
 
     combos {
@@ -427,9 +416,16 @@
             layers = <0 2 3 4 5>;
         };
 
-        modtap {
-            bindings = <&td3>;
+        mod_ctrl_shift_alt {
+            bindings = <&kp LS(LCTRL)>;
             key-positions = <29 38>;
+            layers = <0 2 3 4 5>;
+        };
+
+        mod_ctrl_shift {
+            bindings = <&kp LS(LC(LCTRL))>;
+            key-positions = <29 38 24>;
+            layers = <0 2 3 4 5>;
         };
     };
 
