@@ -71,7 +71,7 @@
         bi_h_04 {
             bindings = <&kp SCROLLLOCK>;
             key-positions = <5 4>;
-            layers = <0 3 3 4 5 2>;
+            layers = <0 4 5 2 1>;
         };
 
         bi_m_01 {
@@ -95,7 +95,7 @@
         bi_m_04 {
             bindings = <&kp PAUSE_BREAK>;
             key-positions = <16 17>;
-            layers = <0 3 3 4 5 2>;
+            layers = <0 4 5 2 1>;
         };
 
         bi_l_01 {
@@ -119,7 +119,7 @@
         bi_l_04 {
             bindings = <&kp LC(LS(NUMBER_4))>;
             key-positions = <28 29>;
-            layers = <0 3 3 4 5 2>;
+            layers = <0 4 5 2 1>;
         };
 
         ag_h_01 {
