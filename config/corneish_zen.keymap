@@ -41,13 +41,13 @@
         bksp {
             bindings = <&kp BACKSPACE>;
             key-positions = <20 21>;
-            layers = <0 3 2 3 4>;
+            layers = <0 2 4 1>;
         };
 
         bi_h_00 {
             bindings = <&kp ESCAPE>;
             key-positions = <1 0>;
-            layers = <0 3 3 4 5 2>;
+            layers = <0 4 5 2 1>;
         };
 
         bi_h_01 {
@@ -424,7 +424,7 @@
 
         togglegaming {
             bindings = <&tog 1>;
-            key-positions = <1 2 4 3 29>;
+            key-positions = <17 4 3>;
         };
     };
 
