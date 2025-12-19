@@ -421,6 +421,11 @@
             key-positions = <29 37>;
             layers = <0 3 3 4 5>;
         };
+
+        togglegaming {
+            bindings = <&tog 1>;
+            key-positions = <1 2 4 3 29>;
+        };
     };
 
     keymap {
