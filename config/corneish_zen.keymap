@@ -426,6 +426,12 @@
             bindings = <&tog 1>;
             key-positions = <17 4 3>;
         };
+
+        arc_gr_inv_h_01 {
+            bindings = <&kp SLASH>;
+            key-positions = <1 2 15>;
+            layers = <0 3 3 4 5>;
+        };
     };
 
     keymap {
