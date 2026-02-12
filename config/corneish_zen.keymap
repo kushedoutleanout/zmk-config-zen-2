@@ -261,7 +261,7 @@
         };
 
         tri_h_00 {
-            bindings = <&kp BACKSPACE>;
+            bindings = <&none>;
             key-positions = <0 1 2>;
             layers = <0 3 3 4 5>;
         };
